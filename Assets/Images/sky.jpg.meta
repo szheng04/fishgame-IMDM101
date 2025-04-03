@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3957561d6d6974c7997c4b435c36ddd0
+guid: 66952e55ca8f0fc43b158271228ffda7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9025656546293363899
-    second: forest landscape_0
+      213: 3836954968553550457
+    second: sky_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: forest landscape_0
+      name: sky_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 734
-        height: 367
+        width: 1724
+        height: 973
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb4be721fc2914d70800000000000000
-      internalID: 9025656546293363899
+      spriteID: 972fdcff63a9f3530800000000000000
+      internalID: 3836954968553550457
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      forest landscape_0: 9025656546293363899
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
