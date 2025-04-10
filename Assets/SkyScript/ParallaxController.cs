@@ -3,26 +3,26 @@ using UnityEngine;
 public class ParallaxController : MonoBehaviour
 {
  // Reference to the player GameObject.
- public GameObject player;
+    public GameObject player;
 
- // The distance between the camera and the player.
-private Vector3 offset;
+    // The distance between the camera and the player.
+    private Vector3 offset;
 
- void Start()
+    void Start()
     {
- // Calculate the initial offset between the camera's position and the player's position.
+        // Calculate the initial offset between the camera's position and the player's position.
         offset = transform.position - player.transform.position; 
     }
 
- void LateUpdate()
-    {
- // Maintain the same offset between the camera and player throughout the game.
+    void LateUpdate()
+        {
+        // Maintain the same offset between the camera and player throughout the game.
         transform.position = player.transform.position + offset;  
-    }
+        }
 
 
 
-    
+        
     // Transform cam;
     // Vector3 camStartPos;
     // float distance;

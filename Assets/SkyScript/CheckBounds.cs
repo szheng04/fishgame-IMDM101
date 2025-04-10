@@ -14,6 +14,7 @@ public class CheckBounds : MonoBehaviour
     {
         Camera cam = Camera.main;
         camHalfHeight = cam.orthographicSize;
+        
         camHalfWidth = camHalfHeight * cam.aspect;
     }
 
