@@ -6,19 +6,20 @@ public class ParallaxController : MonoBehaviour
     public GameObject player;
 
     // The distance between the camera and the player.
-    private Vector3 offset;
+    private float offset;
 
     void Start()
     {
         // Calculate the initial offset between the camera's position and the player's position.
-        offset = transform.position - player.transform.position; 
+        offset = transform.position.x - player.transform.position.x; 
     }
 
     void LateUpdate()
-        {
+    {
         // Maintain the same offset between the camera and player throughout the game.
-        transform.position = player.transform.position + offset;  
-        }
+        transform.position = new Vector3(player.transform.position.x + offset, transform.position.y, transform.position.z);
+        //player.transform.position.x + offset;  
+    }
 
 
 

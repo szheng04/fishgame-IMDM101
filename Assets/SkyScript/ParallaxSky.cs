@@ -28,7 +28,7 @@ public class ParallaxSky : MonoBehaviour
 
     void CheckReset() {
         if (Mathf.Abs(transform.position.x) - singleTextureWidth > 0) {
-            transform.position = new Vector3(0.0f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(0f, transform.position.y, transform.position.z);
         }
     }
 
