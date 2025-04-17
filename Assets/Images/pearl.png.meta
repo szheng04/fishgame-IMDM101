@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 656912505854942458957e9f886b82b7
+guid: 3a2c69a382f00a341a9bc2aadb533fca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3199874939344162246
-    second: blue fish 2d_0
+      213: 7776255403194780300
+    second: pearl_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: blue fish 2d_0
+      name: pearl_0
       rect:
         serializedVersion: 2
-        x: 152
-        y: 39
-        width: 517
-        height: 286
+        x: 118
+        y: 116
+        width: 332
+        height: 334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cd884dbd4d386c20800000000000000
-      internalID: 3199874939344162246
+      spriteID: c8a032eb61fcaeb60800000000000000
+      internalID: 7776255403194780300
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      low_poly_bird_mesh_lowpoly_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_4295014_0: 850027967406366125
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
